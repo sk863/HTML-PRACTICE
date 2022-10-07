@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 5</title>
+</head>
+<body>
+    <p>Let's begin our day 5 practice.</p> <br>
+    <p>Today we are going to learn about HTML inputs.</p>
+    <h2>HTML Inputs</h2>
+    <p>input tag is used to input something on to a browser.</p> <br>
+    <p>first we have to define the label</p><br>
+    <p>and then we have to write inpute tag in next line</p><br>
+    <p>all of this has to be in a div container</p><br>
+    <p>lets see the examples:</p><br>
+    <div>
+        <label for="Username">Username</label>
+        <input type="text" id="Username" placeholder="Username">
+    </div>
+
+
+    <div>
+        <label for="Password">Password</label>
+        <input type="text" type="number" placeholder="Password" id="Passsword">
+    </div>
+
+    <div>
+        <label for="Age">Age</label>
+        <input type="number" placeholder="age" id="age">        
+    </div>
+    <div>
+        <label for="color">color</label>
+        <input type="color" id="color">
+    </div>
+    <div>
+        Time
+        <input type="time">
+    </div>
+    <div>
+        Date
+        <input type="date">
+    </div>
+    <div>
+        email
+        <input type="email">        
+    </div>
+
+    <div>
+        <input type="email" placeholder="email">
+    </div>
+    <input type="range" min="0" max="10">
+
+    <p>Now we will see more about input types in html</p><br>
+
+    <div>
+        <p><input type="radio">radio input lets user select only 1 out of given options</p>
+        Gender -> <br>
+        <input type="radio">
+        Male
+        <input type="radio">
+        Female
+        <input type="radio">
+        Trans
+    </div>
+
+     <h2>choose your favourite html language:</h2>
+    <div>
+        <input type="radio" id="html" name="fav language">HTML
+        <input type="radio" id="css" name="fav language">CSS
+        <input type="radio" name="fav language" id="javascript"> javascript
+    </div>
+
+    <h3>input type checkbox</h3>
+    <h5>Choose 1 out of the following (acc. to your internet speed):</h5>
+    <input type="checkbox"> 10mbps
+    <input type="checkbox"> 20mbps
+    <input type="checkbox" name="30mbps" id="number"> 30mbps
+
+    <div>
+        <input type="button" onclick="alert ('hello!')"  value="click me">
+    </div>
+
+    <input type="color" name="fav color" id="fav color"><br>
+
+    <input type="email">email <br>
+
+    <div>
+        <input type="button" value="5">
+    </div>
+    <div>
+        I agree
+        <input type="checkbox" unchecked>
+    </div>
+    <div>
+        <input type="number" name="number" id="no"> number
+    </div>
+    <div>
+        <select>
+            <option value="one">one</option>one
+            <option value="two">two</option>two
+            <option value="three">three</option>three
+            <option value="four">four</option>four
+            <option value="five">five</option>five
+        </select>
+    </div>
+
+    <div>
+        <select>
+              <option value="1">one</option>
+              <option value="2">two</option>
+        </select>
+    </div>
+
+    <div>
+        <input type="range">
+    </div>
+
+    <div>
+        <textarea name="Draw" id="Draw" cols="50" rows="20"></textarea>
+    </div>
+
+    <div>
+        <form action="">
+            <label for="homepage">add your homepage:</label>
+            <input type="url" id="homepage" name="homepage">
+            <input type="Submit" value="Submit!">
+        </form>        
+    </div>
+
+    <form action="submit">
+        <input type="button" value="56">
+    </form>
+</body>
+</html>
