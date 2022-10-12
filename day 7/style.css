@@ -1,0 +1,36 @@
+h1{
+    background-color: blueviolet;
+    font-size: 40px;
+    font-style: initial;
+    border: 2cm;
+}
+
+form label{
+    color: aqua;
+    font-stretch: expanded;
+}
+
+
+div button .circle{
+    background-color: greenyellow;
+}
+
+
+h4{
+    color: black;
+    background-color: aqua;
+    border: 10px;
+    border-color: blueviolet;
+
+}
+
+
+#special{
+    background-color: brown;
+    font-size: 10px;
+    font-weight: 50;
+}
+
+.circle{
+    font: 200;
+}
